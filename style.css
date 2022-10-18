@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+}
+/*
+Etiqueta Body: tiene margen 0 y un relleno superior de 800 px. Queremos alinear el texto al centro. .profile: Esta imagen tiene un radio de borde dek 50 % para darle una forma circular. Recuerda que la imagen tiene un nombre de clase "profile", por lo que tiene que cambiarse el estilo utilizando la sintaxis (punto).classname.
+*/
+#welcome 
+{
+    position: absolute
+    bottom:0;
+    background:linear-gradient(#16f284 0.5% , #f0ab67 100%);
+    display:table;
+    width:100%;
+    heigth:100%;
+    z-index: 9;
+}
+
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+h1{
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 300;
+}
+.menu{
+    list-style: none;
+    position:absolute;
+    z-index: 10;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    background: white;
+    /*c60*/
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+}
+/*C 58, 63-1:M*/
+.links
+{
+float: left;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif m;
+font-size: 20px;
+color:blueviolet;
+font-family: peralta;
+font-size: 25px;
+padding-top: 5px;
+padding-left: 30px;
+padding-right: 9px;
+padding-bottom: 5px;
+}
+.links:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+
+}
